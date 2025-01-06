@@ -77,7 +77,7 @@ let player1Score = 0;
 let player2Score = 0;
 
 ///Socket
-const socket = io.connect( "http://localhost:3000", { secure: true, transports: [ "flashsocket","polling","websocket" ] } );
+const socket = io.connect( "https://rockps-wa25.onrender.com", { secure: true, transports: [ "flashsocket","polling","websocket" ] } );
 
 const createRoom = () => {
   player1 = true;
